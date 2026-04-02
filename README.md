@@ -2,6 +2,47 @@
 
 A modern, performant e-commerce application built with React, Redux, and Styled Components that showcases best practices in React development.
 
+[![Repository](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/ppal099/ecom-react)
+[![React](https://img.shields.io/badge/React-18.3.1-blue.svg)](https://reactjs.org/)
+[![Redux](https://img.shields.io/badge/Redux-Toolkit-764ABC.svg)](https://redux-toolkit.js.org/)
+[![Styled Components](https://img.shields.io/badge/Styled--Components-DB7093.svg)](https://styled-components.com/)
+
+## 🚀 Live Demo
+
+[View Live Application](https://ppal099.github.io/ecom-react/) (if deployed)
+
+## 📋 Repository
+
+- **GitHub**: [https://github.com/ppal099/ecom-react](https://github.com/ppal099/ecom-react)
+- **Clone**: `git clone https://github.com/ppal099/ecom-react.git`
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ppal099/ecom-react.git
+   cd ecom-react
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser:**
+   Navigate to `http://localhost:5173`
+
 ## Features
 
 ### Product Listing Page (/)
@@ -101,13 +142,38 @@ Create an optimized production build:
 npm run build
 ```
 
-Preview the production build:
+## 🚀 Deployment
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
 
 ```bash
 npm run preview
 ```
 
-## Key Implementation Details
+### Deploy to GitHub Pages
+
+```bash
+npm install -g gh-pages
+npm run build
+npm run deploy
+```
+
+## 🔧 API Integration & Fallback
+
+The application uses the [FakeStore API](https://fakestoreapi.com/) for product data with intelligent fallback:
+
+- **Primary**: Real API data when available
+- **Fallback**: Local mock data when API is unavailable (CORS, 523 errors, etc.)
+- **Persistence**: API status cached in localStorage to prevent repeated failed requests
+- **Retry Logic**: Exponential backoff for temporary failures
+
+## Features
 
 ### Async Data Fetching
 - Products are fetched from FakeStore API asynchronously
@@ -210,10 +276,28 @@ These values are restored on page refresh or navigation between pages.
 - Advanced filtering options
 - Product recommendations
 
-## License
+## 🤝 Contributing
 
-This project is open source and available under the MIT License.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Support
+## 📝 License
 
-For any issues or questions, please refer to the component comments and Redux slice documentation in the source code.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [FakeStore API](https://fakestoreapi.com/) for product data
+- [Unsplash](https://unsplash.com/) for fallback product images
+- React, Redux, and Styled Components communities
+
+## 📞 Support
+
+For support, email ppal099@example.com or create an issue in the repository.
+
+---
+
+**Built with ❤️ using React & Redux**
