@@ -7,9 +7,7 @@ A modern, performant e-commerce application built with React, Redux, and Styled 
 [![Redux](https://img.shields.io/badge/Redux-Toolkit-764ABC.svg)](https://redux-toolkit.js.org/)
 [![Styled Components](https://img.shields.io/badge/Styled--Components-DB7093.svg)](https://styled-components.com/)
 
-## 🚀 Live Demo
 
-[View Live Application](https://ppal099.github.io/ecom-react/) (if deployed)
 
 ## 📋 Repository
 
