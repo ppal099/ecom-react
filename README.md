@@ -110,28 +110,6 @@ src/
 └── index.css           # Base styles
 ```
 
-## Installation
-
-1. Navigate to the project directory:
-   ```bash
-   cd d:\pankaj\Prevaj\ecom
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-## Development
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-The application will be available at `http://localhost:5173/`
-
 ## Building for Production
 
 Create an optimized production build:
