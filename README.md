@@ -110,13 +110,7 @@ src/
 └── index.css           # Base styles
 ```
 
-## Building for Production
 
-Create an optimized production build:
-
-```bash
-npm run build
-```
 
 ## 🚀 Deployment
 
@@ -270,10 +264,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Unsplash](https://unsplash.com/) for fallback product images
 - React, Redux, and Styled Components communities
 
-## 📞 Support
+##  Support
 
-For support, email ppal099@example.com or create an issue in the repository.
+For support, email ppal095@gmail.com or create an issue in the repository.
 
 ---
 
-**Built with ❤️ using React & Redux**
+**Built with  using React & Redux**
